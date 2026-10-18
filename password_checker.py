@@ -11,7 +11,7 @@ password = input("Enter a test password: ")
 length = len(password)
 print("Password Length:", length)
 
-#STEP 3: Check for uppercase letters
+#STEP 3: Check the minimum password length
 if length < 12:
     print("Your password is too short.") 
 else: 
@@ -57,7 +57,7 @@ for character in password:
     if character in special_characters: # the keyword "in" checks to see if any of those characters appear in the password
         has_special = True
 
-print("Comtains speacial character:", has_special)
+print("Comtains special character:", has_special)
 
 #STEP 8: Check if all requirements are met
 
